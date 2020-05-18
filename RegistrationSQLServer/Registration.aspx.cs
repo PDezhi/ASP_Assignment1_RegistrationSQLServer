@@ -28,12 +28,24 @@ namespace RegistrationSQLServer
                 userInfo.Province = Server.HtmlEncode(stateOrProvinceTextBox.Text);
                 userInfo.PostalCode = Server.HtmlEncode(zipCodeTextBox.Text);
                 userInfo.Country = Server.HtmlEncode(countryTextBox.Text);
-
-                if (DBLayer.DBUtilities.InsertUserInformation(userInfo) == 1)
+                int id = default;
+                if (int.TryParse(DBLayer.DBUtilities.InsertUserInformation(userInfo).ToString(), out id))
+                {
+                    idTextBox.Text = id.ToString();
                     this.lblResultMessage.Text = "The User Information was successfully inserted into db table";
+                }
                 else
                     this.lblResultMessage.Text = "There was an error on inserting the user information!!!!!!";
             }
+        }
+
+        protected void EditUserButton_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(idTextBox.Text.Trim()))
+            {
+                Response.Redirect("~/EditUserInformationById.aspx?id=" + idTextBox.Text.Trim());
+            }
+
         }
     }
 }

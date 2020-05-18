@@ -67,12 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EditUserInformationById.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessLayer\UserInformation.cs" />
     <Compile Include="DBLayer\DBUtilities.cs" />
+    <Compile Include="EditUserInformationById.aspx.cs">
+      <DependentUpon>EditUserInformationById.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditUserInformationById.aspx.designer.cs">
+      <DependentUpon>EditUserInformationById.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>

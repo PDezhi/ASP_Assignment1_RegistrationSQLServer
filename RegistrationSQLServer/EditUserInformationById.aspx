@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="RegistrationSQLServer.Registration" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditUserInformationById.aspx.cs" Inherits="RegistrationSQLServer.EditUserInformationById" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Registration Page</title>
+    <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -76,20 +76,16 @@
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
+                        <td>&nbsp;</td>
                         <td>
-                            <asp:TextBox ID="idTextBox" runat="server" Visible="false"></asp:TextBox>
-                        </td>
-                        <td>
-                            <asp:Button ID="enterInfoButton" runat="server" Text="Enter user information" OnClick="EnterInfoButton_OnClick" /></td>
+                            <asp:Button ID="updateInfoButton" runat="server" Text="Update user information" OnClick="UpdateInfoButton_OnClick" /></td>
                     </tr>
                 </table>
 
                 <asp:Label ID="lblResultMessage" ForeColor="Red" runat="server"></asp:Label>
-                <asp:LinkButton ID="EditUserButton" runat="server" OnClick="EditUserButton_Click">Edit the User you just created</asp:LinkButton>
+                <asp:LinkButton ID="registrationButton" runat="server" OnClick="registrationButton_Click">Register a new user!</asp:LinkButton>
             </asp:Panel>
         </div>
-        <p>
-            &nbsp;</p>
     </form>
 </body>
 </html>

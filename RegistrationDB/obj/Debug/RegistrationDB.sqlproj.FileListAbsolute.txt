@@ -4,3 +4,13 @@ C:\Users\flordn\source\repos\RegistrationSQLServer\RegistrationDB\bin\Debug\Regi
 C:\Users\flordn\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\RegistrationDB.sqlprojAssemblyReference.cache
 C:\Users\flordn\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\RegistrationDB.dll
 C:\Users\flordn\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\RegistrationDB.pdb
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\bin\Debug\RegistrationDB.dacpac
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\bin\Debug\RegistrationDB.dll
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\bin\Debug\RegistrationDB.pdb
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\RegistrationDB.sqlprojAssemblyReference.cache
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\Model.xml
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\refactor.xml
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\postdeploy.sql
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\predeploy.sql
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\RegistrationDB.dll
+C:\Users\ddzlf\source\repos\RegistrationSQLServer\RegistrationDB\obj\Debug\RegistrationDB.pdb
